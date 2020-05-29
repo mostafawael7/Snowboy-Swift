@@ -7,6 +7,5 @@
 #define Snowboy_Bridging_Header_h
 
 #import "SnowboyWrapper.h"
-#import "RCTBridgeModule.h"
 
 #endif /* Snowboy_Bridging_Header_h */

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A311CE424802199007DCAED /* ReactSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A311CE324802199007DCAED /* ReactSwift.swift */; };
-		1A311CE624802226007DCAED /* ReactSwiftBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A311CE524802226007DCAED /* ReactSwiftBridge.m */; };
 		1A57777F244672EC00F38BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57777E244672EC00F38BFA /* AppDelegate.swift */; };
 		1A577781244672EC00F38BFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A577780244672EC00F38BFA /* SceneDelegate.swift */; };
 		1A577783244672EC00F38BFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A577782244672EC00F38BFA /* ViewController.swift */; };
@@ -23,8 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A311CE324802199007DCAED /* ReactSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactSwift.swift; sourceTree = "<group>"; };
-		1A311CE524802226007DCAED /* ReactSwiftBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactSwiftBridge.m; sourceTree = "<group>"; };
 		1A57777B244672EC00F38BFA /* Snowboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snowboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A57777E244672EC00F38BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A577780244672EC00F38BFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,8 +85,6 @@
 				1A577780244672EC00F38BFA /* SceneDelegate.swift */,
 				1A5777A32446759A00F38BFA /* SnowboyWrapper.h */,
 				1A5777A22446759A00F38BFA /* SnowboyWrapper.mm */,
-				1A311CE324802199007DCAED /* ReactSwift.swift */,
-				1A311CE524802226007DCAED /* ReactSwiftBridge.m */,
 			);
 			path = Snowboy;
 			sourceTree = "<group>";
@@ -178,11 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A311CE624802226007DCAED /* ReactSwiftBridge.m in Sources */,
 				1A577783244672EC00F38BFA /* ViewController.swift in Sources */,
 				1A57777F244672EC00F38BFA /* AppDelegate.swift in Sources */,
 				1A577781244672EC00F38BFA /* SceneDelegate.swift in Sources */,
-				1A311CE424802199007DCAED /* ReactSwift.swift in Sources */,
 				1A5777A42446759A00F38BFA /* SnowboyWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
